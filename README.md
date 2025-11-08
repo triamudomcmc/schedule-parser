@@ -17,6 +17,7 @@ This project based on Table Parser from [pryter](https://github.com/pryter), and
   1. git clone https://github.com/Adisuarn/schedule-parser.git
   2. cd schedule-parser
   3. npm install
+  3.1 (optional) you need to install graphicsmagick and ghostscript to use pdfs to images conversion feature
   4. create folder named 'images', 'convertedImages', 'pdfs' in root directory
   5. put all schedule images (jpg) in images folder
   6. get credentials.json (credentials) from Google Cloud Vision API

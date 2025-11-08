@@ -130,7 +130,7 @@ async function convertPdfToImage() {
 async function main() {
   const choice = await askQuestion('1: Generating table, 2: Converting image: ');
   if (choice === '1') {
-    //await convertPdfToImage();
+    // await convertPdfToImage();
     await generateTable();
   } else if (choice === '2') {
     await convertImage();
